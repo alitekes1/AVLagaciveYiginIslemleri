@@ -1,0 +1,7 @@
+Bu projede, her bir dosya satırı için bir AVL ağacı oluşturulmuş ve bu ağaca okunan değerler eklenmiştir.(Dosya 500 satırdan ve 27000++ sayıdan oluşmaktadır). Oluşan her AVL ağacının yaprakları bir yığında saklanmıştır. Bu ağaçların düğüm verilerinin toplamı ile her yığındaki yaprakların toplamının fark değerinin ASCII karşılığı ekrana yazdırılmıştır.
+
+Daha sonra, tüm ağaçlardaki yığınların en küçük tepe değerine sahip olan ağacın tespit edilip bu değer yığından çıkarılmıştır. Ardından, en büyük tepe değerine sahip olan ağacın tespiti ve bu değerin yığından çıkarılması şeklinde devam edilerek herhangi bir ağaçtaki yığının elemanı kalmayana kadar bu örüntü sürdürülmüştür.
+
+Yığınında elemanı kalmayan ağacın bellek sızıntısına dikkat edilerek silinmesi ve bu işlemin son ağaç kalana kadar devam etmesi yapılmıştır. Bu süre zarfında kalan ağaçların ASCII hesabının yapıldığı da belirtilmiştir. Ayrıca her ağaç silme işleminden sonra kalan ağaçlardan tekrar ASCII hesaplaması yapılmaktadır.
+
+En sonunda son kalan ağacın yığındaki verilerinin toplamı ile düğüm verilerinin toplamının farkının ASCII karşılığı ve AVL numarası ekrana bastırılmıştır. Tüm bu olaylar projenin tamamlanma süresi içinde gerçekleştirilmiş olup, süre 14-15 saniye aralığında tamamlanmıştır.
